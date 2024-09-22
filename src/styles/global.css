@@ -21,7 +21,12 @@ h1 {
 }
 
 /* nav styles */
-
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
@@ -81,4 +86,12 @@ h1 {
   }
 }
 
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
 
